@@ -62,13 +62,37 @@ h1 {
     color: #111dcc;
 }
 
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
 .btn {
-    padding: 10px 15px;
-    background-color: #153a1b;
-    color: rgb(238, 100, 100);
+    padding: 10px 20px;
+    background-color: #1e1bc4;
+    color: rgb(19, 18, 18);
     border: none;
-    border-radius: 25px;
+    border-radius: 15px;
     text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #10d31a;
+    color: #ffffff;
+}
+
+.btn:active {
+    transform: scale(0.85);
+}
+
+.btn.active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} 
+
+html {
+    scroll-behavior: smooth;
 }
 
 footer {
