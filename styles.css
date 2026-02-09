@@ -101,3 +101,11 @@ footer {
     background-color: #c6e5f1;
     margin-top: 20px;
 }
+
+.card {
+    background: #f3b1b1;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+}
